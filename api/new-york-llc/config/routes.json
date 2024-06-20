@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/new-york-llcs",
+      "handler": "new-york-llc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/new-york-llcs/count",
+      "handler": "new-york-llc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/new-york-llcs/:id",
+      "handler": "new-york-llc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/new-york-llcs",
+      "handler": "new-york-llc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/new-york-llcs/:id",
+      "handler": "new-york-llc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/new-york-llcs/:id",
+      "handler": "new-york-llc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

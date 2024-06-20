@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "llc_members",
+  "info": {
+    "name": "LLCMember"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SignatureOfAuthorizedRepresentiveOfLLC": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "DateSigned": {
+      "type": "string"
+    },
+    "NameOfPersonPreparingThisForm": {
+      "type": "string"
+    },
+    "ContactPhone": {
+      "type": "string"
+    },
+    "ContactEmailAddress": {
+      "type": "string"
+    },
+    "ContactPersonRelationshipToCorporation": {
+      "type": "string"
+    }
+  }
+}

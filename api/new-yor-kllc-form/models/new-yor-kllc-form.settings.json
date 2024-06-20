@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_yor_kllc_forms",
+  "info": {
+    "name": "NewYorKLLCForm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "llc": {
+      "model": "llc"
+    },
+    "llc_member": {
+      "model": "llc-member"
+    }
+  }
+}

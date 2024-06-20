@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "llcs",
+  "info": {
+    "name": "LLC",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LLCName": {
+      "type": "string"
+    },
+    "LLCMailAddress": {
+      "type": "string"
+    },
+    "LLCContactPhone": {
+      "type": "string"
+    },
+    "LLCContactEmail": {
+      "type": "string"
+    },
+    "OrganizerName": {
+      "type": "string"
+    },
+    "OrganizerPhone": {
+      "type": "string"
+    },
+    "OrganizerAddress": {
+      "type": "string"
+    },
+    "NameOfTheMemberOrManager": {
+      "type": "string"
+    },
+    "AddressOfTheMemberOrManager": {
+      "type": "string"
+    },
+    "NameOfRegisteredAgent": {
+      "type": "string"
+    },
+    "CompleteAdressOfRegisteredAgent": {
+      "type": "string"
+    },
+    "NAICSCode": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alabamas",
+  "info": {
+    "name": "Alabama",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "State": {
+      "type": "string"
+    }
+  }
+}

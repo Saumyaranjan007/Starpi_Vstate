@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_contact_information_contact_components",
+  "info": {
+    "name": "ContactComponent",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 15,
+      "minLength": 2
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email"
+    },
+    "ContactNo": {
+      "type": "string"
+    }
+  }
+}

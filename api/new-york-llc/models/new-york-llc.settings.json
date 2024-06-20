@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_york_llcs",
+  "info": {
+    "name": "NewYorkLLC"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "llc": {
+      "model": "llc"
+    },
+    "llc_member": {
+      "model": "llc-member"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "credit_card_infos",
+  "info": {
+    "name": "CreditCardInfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NameOnTheCreditCard": {
+      "type": "string"
+    },
+    "BillingAddress": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZipCode": {
+      "type": "string"
+    },
+    "BillingPrice": {
+      "type": "string"
+    },
+    "BillingEmail": {
+      "type": "string"
+    },
+    "CreditCardNo": {
+      "type": "string"
+    },
+    "ExpDate": {
+      "type": "string"
+    },
+    "SecurityCode": {
+      "type": "string"
+    }
+  }
+}

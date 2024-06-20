@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/new-yor-kllc-forms",
+      "handler": "new-yor-kllc-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/new-yor-kllc-forms/count",
+      "handler": "new-yor-kllc-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/new-yor-kllc-forms/:id",
+      "handler": "new-yor-kllc-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/new-yor-kllc-forms",
+      "handler": "new-yor-kllc-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/new-yor-kllc-forms/:id",
+      "handler": "new-yor-kllc-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/new-yor-kllc-forms/:id",
+      "handler": "new-yor-kllc-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

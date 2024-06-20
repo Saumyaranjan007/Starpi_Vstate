@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/llc-members",
+      "handler": "llc-member.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/llc-members/count",
+      "handler": "llc-member.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/llc-members/:id",
+      "handler": "llc-member.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/llc-members",
+      "handler": "llc-member.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/llc-members/:id",
+      "handler": "llc-member.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/llc-members/:id",
+      "handler": "llc-member.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

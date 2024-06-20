@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alabamas",
+      "handler": "alabama.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabamas/count",
+      "handler": "alabama.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabamas/:id",
+      "handler": "alabama.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alabamas",
+      "handler": "alabama.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alabamas/:id",
+      "handler": "alabama.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alabamas/:id",
+      "handler": "alabama.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

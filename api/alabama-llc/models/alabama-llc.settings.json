@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alabama_llcs",
+  "info": {
+    "name": "Alabama_LLC",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "credit_card_info": {
+      "model": "credit-card-info"
+    },
+    "llc": {
+      "model": "llc"
+    },
+    "llc_member": {
+      "model": "llc-member"
+    },
+    "contact": {
+      "model": "contact"
+    },
+    "services": {
+      "collection": "services",
+      "via": "alabama_llc",
+      "dominant": true
+    }
+  }
+}

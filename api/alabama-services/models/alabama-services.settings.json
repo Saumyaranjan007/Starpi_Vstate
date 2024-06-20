@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alabama_services",
+  "info": {
+    "name": "AlabamaServices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ServiceName": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    }
+  }
+}

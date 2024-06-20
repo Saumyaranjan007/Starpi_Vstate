@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alabama-llcs",
+      "handler": "alabama-llc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabama-llcs/count",
+      "handler": "alabama-llc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabama-llcs/:id",
+      "handler": "alabama-llc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alabama-llcs",
+      "handler": "alabama-llc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alabama-llcs/:id",
+      "handler": "alabama-llc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alabama-llcs/:id",
+      "handler": "alabama-llc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

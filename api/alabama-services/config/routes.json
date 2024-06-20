@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alabama-services",
+      "handler": "alabama-services.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabama-services/count",
+      "handler": "alabama-services.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alabama-services/:id",
+      "handler": "alabama-services.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alabama-services",
+      "handler": "alabama-services.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alabama-services/:id",
+      "handler": "alabama-services.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alabama-services/:id",
+      "handler": "alabama-services.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
